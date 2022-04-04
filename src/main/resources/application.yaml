@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mdb?serverTimezone=UTC
+    username: root
+    password: 11111111
+  data:
+    mongodb:
+      uri: mongodb+srv://mongoUser:11112222@cat.kbzpw.mongodb.net/dbm?retryWrites=true&w=majority
+  jpa:
+    hibernate:
+      ddl-auto: update
